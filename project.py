@@ -1,4 +1,3 @@
-from alpha_vantage.fundamentaldata import FundamentalData
 from sklearn.linear_model import LinearRegression
 import streamlit as st
 import pandas as pd
@@ -11,8 +10,6 @@ import matplotlib.pyplot as plt
 from streamlit_option_menu import *
 import plotly_express as px
 import plotly.graph_objects as go
-from function import *
-import requests
 from stocknews import StockNews
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
